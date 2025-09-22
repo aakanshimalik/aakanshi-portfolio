@@ -174,18 +174,18 @@ export const SkillsInfo = [
       description:
         "An e-commerce platform built for Celebal Technologies as an internship project — featuring cart, payments, admin dashboard, and AI-generated product showcase.",
       image: celebalmartLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API","Firebase", "Tailwind CSS"],
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "API","Firebase", "Tailwind CSS", "Razorpay payment"],
       github: "https://github.com/aakanshimalik/Celebal_Mart",
       webapp: "https://celebal-mart.onrender.com",
     },
     {
       id: 1,
-      title: "Zerodha Clone",
+      title: "ZerodhaX",
       description:
-        "The Zerodha Clone project is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). It replicates the core functionalities of a stock trading platform, allowing users to view real-time stock prices, place buy/sell orders, and manage their portfolios. I implemented features such as user authentication, real-time data fetching, and an interactive dashboard, while ensuring a seamless and responsive UI. This project not only showcases my proficiency in full-stack development but also highlights my ability to integrate third-party APIs and handle complex functionalities in a secure, scalable manner.",
+        "The ZerodhaX project is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). It replicates the core functionalities of a stock trading platform, allowing users to view real-time stock prices, place buy/sell orders, and manage their portfolios. I implemented features such as user authentication, real-time data fetching, and an interactive dashboard, while ensuring a seamless and responsive UI. This project not only showcases my proficiency in full-stack development but also highlights my ability to integrate third-party APIs and handle complex functionalities in a secure, scalable manner.",
       image: zerodhaLogo,
       tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/aakanshimalik/ZerodhaClone",
+      github: "https://github.com/aakanshimalik/ZerodhaX",
       webapp: " https://zerodhaclone-frontend-3q4m.onrender.com",
     },
     {
@@ -234,7 +234,7 @@ export const SkillsInfo = [
       description:
         "The Online Meal Ordering Project is a simple web application developed using HTML & CSS, designed to provide users with a seamless platform for browsing and ordering meals online. This project highlights my ability to create engaging and functional front-end applications while focusing on UI/UX design and interactivity.",
       image: onlinemealLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
+      tags: ["HTML", "CSS", "JS"],
       github: "https://github.com/aakanshimalik/Online-Meal-website",
       webapp: "https://online-meal-website.onrender.com",
     },
