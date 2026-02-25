@@ -198,7 +198,7 @@ export const SkillsInfo = [
       image: xplorelogo,
       tags: ["Node.js", "Express", "MongoDB (Mongoose)", "EJS (partials/layouts)", "Passport.js (sessions)", "Joi validation", "Multer + Cloudinary (file uploads)","Render"],
       github: "https://github.com/aakanshimalik/XploreStays",
-      webapp: "https://xplorestays.onrender.com/listings.onrender.com",
+      webapp: "https://xplorestays.onrender.com/listings",
     },
     {
       id: 3,
