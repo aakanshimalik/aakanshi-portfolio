@@ -41,11 +41,13 @@ import sdpsLogo from './assets/education_logo/sdps.png';
 import celebalmartLogo from './assets/work_logo/celebal_mart.png';
 import zerodhaLogo from './assets/work_logo/zerodha.png';
 import celebeatsLogo from './assets/work_logo/celebeats.png';
+import xplorelogo from './assets/work_logo/xplorelogo.png';
 import dashboardLogo from './assets/work_logo/admin_dash.png';
 import todoLogo from './assets/work_logo/To-do.png';
 import simonLogo from './assets/work_logo/simon.png';
 import onlinemealLogo from './assets/work_logo/online-meal.png';
 import weatherLogo from './assets/work_logo/weather.png';
+
 
 
 export const SkillsInfo = [
@@ -188,8 +190,18 @@ export const SkillsInfo = [
       github: "https://github.com/aakanshimalik/ZerodhaX",
       webapp: " https://zerodhaclone-frontend-3q4m.onrender.com",
     },
-    {
+     {
       id: 2,
+      title: "XploreStays",
+       description:
+        "Built a responsive stay-booking platform with advanced search, dual ratings, transparent pricing, and a secure booking flow. Implemented authentication, role-based access, and image uploads, Node.js, Express.js, and MongoDB, followed MVC architecture, and deployed on Render.",
+      image: xplorelogo,
+      tags: ["Node.js", "Express", "MongoDB (Mongoose)", "EJS (partials/layouts)", "Passport.js (sessions)", "Joi validation", "Multer + Cloudinary (file uploads)","Render"],
+      github: "https://github.com/aakanshimalik/XploreStays",
+      webapp: "https://xplorestays.onrender.com/listings.onrender.com",
+    },
+    {
+      id: 3,
       title: "Cele_Beats",
       description:
         "A React-based web application CeleBeats Celebal x Beats - A music app for celebal Technologies in collaboration with spotify.Cele — short for Celebal Technologies, Beats — emphasizing the rhythmic, musical core of the app. Together, CeleBeats represents the idea of celebrating beats from around the world — music that speaks to a location culture, people, or trending sounds.",
@@ -198,8 +210,8 @@ export const SkillsInfo = [
       github: "https://github.com/aakanshimalik/CeleBeats-SpotifyClone",
       webapp: "https://celebeats-spotifyclone.onrender.com",
     },
-    {
-      id: 3,
+     {
+      id: 4,
       title: "Admin dashboard",
       description:
         "Developed a React Admin Dashboard app with customizable themes, tables, charts, calendar, and Kanban board. Implemented interactive features, seamless integration, and smooth user experience.",
@@ -208,18 +220,18 @@ export const SkillsInfo = [
       github: "https://github.com/aakanshimalik/CelebalInternship_Assignment4AdminDashboard",
       webapp: "https://celebalinternship.onrender.com",
     },
-    {
-      id: 4,
+     {
+      id: 5,
       title: "To-Do List using React",
       description:
         "Developed a React To-Do List component allowing task addition, removal, and completion marking. Validate task input, display tasks dynamically, and offer optional sorting, filtering, and localStorage integration.",
       image: todoLogo,
-      tags: ["JavaScript","react JS", "HTML", "CSS","Tailwind CSS"],
+       tags: ["JavaScript","react JS", "HTML", "CSS","Tailwind CSS"],
       github: "https://github.com/aakanshimalik/ToDoList_CelebalAssignment2",
       webapp: "https://todolist-celebalassignment2.onrender.com",
     },
     {
-      id: 5,
+      id: 6,
       title: "Simon-says-Game",
       description:
         "It is a fun,classic game of listening and quick reflexes.One player,Simon gives commands like Simon says red color blink ,Player should click on red color. And in next level player should touch red color then another color blinked by the simon.",
@@ -229,7 +241,7 @@ export const SkillsInfo = [
       webapp: "https://simon-says-game-3swd.onrender.com",
     },
     {
-      id: 6,
+      id: 7,
       title: "Online-Meal Website",
       description:
         "The Online Meal Ordering Project is a simple web application developed using HTML & CSS, designed to provide users with a seamless platform for browsing and ordering meals online. This project highlights my ability to create engaging and functional front-end applications while focusing on UI/UX design and interactivity.",
@@ -239,7 +251,7 @@ export const SkillsInfo = [
       webapp: "https://online-meal-website.onrender.com",
     },
     {
-      id: 7,
+      id: 8,
       title: "Weather App",
       description:
         "The Weather App is a web application built using HTML, CSS, and JavaScript that fetches real-time weather data from an external API. Users can search for the weather in any location, and the app will display key information such as temperature, humidity, wind speed, and weather conditions. The app features a clean and responsive interface, ensuring a smooth experience across different devices.",
@@ -248,5 +260,6 @@ export const SkillsInfo = [
       github: "https://github.com/aakanshimalik/Weather",
       webapp: "https://weather-ii01.onrender.com",
     },
+   
     
   ];  
