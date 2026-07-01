@@ -47,7 +47,7 @@ import todoLogo from './assets/work_logo/To-do.png';
 import simonLogo from './assets/work_logo/simon.png';
 import onlinemealLogo from './assets/work_logo/online-meal.png';
 import weatherLogo from './assets/work_logo/weather.png';
-
+import interviewLogo from './assets/work_logo/interviewLens_img.png';
 
 
 export const SkillsInfo = [
@@ -144,9 +144,9 @@ export const SkillsInfo = [
       id: 0,
       img: aktuLogo,
       school: "Dr APJ Abdul Kalam Technical University",
-      date: "Sept 2022 - July 2026",
-      grade: "7.6 CGPA",
-      desc: "I am currently pursuing a Bachelor of Technology (B.Tech) in Computer Science & technology at S.D College of Engineering & Technology,Muzaffarnagar, set to graduate in 2026. Throughout my academic journey, I have been honing my skills in programming, software development, and problem-solving, with a strong focus on react developer. My coursework has provided a solid foundation in both theoretical concepts and practical applications, and I have actively participated in projects and open-source contributions to apply my learning in real-world scenarios. With a passion for technology and innovation, I aim to leverage my education to make impactful contributions to the tech industry.",
+      date: "June 2022 - June 2026",
+      grade: "7.95 CGPA",
+      desc: "Recent graduate in Bachelor of Technology (B.Tech) in Computer Science & technology at S.D College of Engineering & Technology,Muzaffarnagar. Throughout my academic journey, I have been honing my skills in programming, software development, and problem-solving, with a strong focus on react developer. My coursework has provided a solid foundation in both theoretical concepts and practical applications, and I have actively participated in projects and open-source contributions to apply my learning in real-world scenarios. With a passion for technology and innovation, I aim to leverage my education to make impactful contributions to the tech industry.",
       degree: " Bachelor of Technology - B.Tech",
     },
     {
@@ -172,6 +172,16 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "InterviewLens-AI",
+      description:
+        "AI Interview Failure Analyzer",
+      image: interviewLogo,
+      tags: ["JavaScript", "MongoDB", "React.JS", "MERN-Stack", "Groq-API","Netlify Deployment", "Tailwind CSS"],
+      github: "https://github.com/aakanshimalik/InterviewLens-AI",
+      webapp: "https://interviewlens-ai.netlify.app/",
+    },
+    {
+      id: 1,
       title: "Celebal Mart",
       description:
         "An e-commerce platform built for Celebal Technologies as an internship project — featuring cart, payments, admin dashboard, and AI-generated product showcase.",
@@ -181,7 +191,7 @@ export const SkillsInfo = [
       webapp: "https://celebal-mart.onrender.com",
     },
     {
-      id: 1,
+      id: 2,
       title: "ZerodhaX",
       description:
         "The ZerodhaX project is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). It replicates the core functionalities of a stock trading platform, allowing users to view real-time stock prices, place buy/sell orders, and manage their portfolios. I implemented features such as user authentication, real-time data fetching, and an interactive dashboard, while ensuring a seamless and responsive UI. This project not only showcases my proficiency in full-stack development but also highlights my ability to integrate third-party APIs and handle complex functionalities in a secure, scalable manner.",
@@ -191,7 +201,7 @@ export const SkillsInfo = [
       webapp: " https://zerodhaclone-frontend-3q4m.onrender.com",
     },
      {
-      id: 2,
+      id: 3,
       title: "XploreStays",
        description:
         "Built a responsive stay-booking platform with advanced search, dual ratings, transparent pricing, and a secure booking flow. Implemented authentication, role-based access, and image uploads, Node.js, Express.js, and MongoDB, followed MVC architecture, and deployed on Render.",
@@ -201,7 +211,7 @@ export const SkillsInfo = [
       webapp: "https://xplorestays.onrender.com/listings",
     },
     {
-      id: 3,
+      id: 4,
       title: "Cele_Beats",
       description:
         "A React-based web application CeleBeats Celebal x Beats - A music app for celebal Technologies in collaboration with spotify.Cele — short for Celebal Technologies, Beats — emphasizing the rhythmic, musical core of the app. Together, CeleBeats represents the idea of celebrating beats from around the world — music that speaks to a location culture, people, or trending sounds.",
@@ -211,7 +221,7 @@ export const SkillsInfo = [
       webapp: "https://celebeats-spotifyclone.onrender.com",
     },
      {
-      id: 4,
+      id: 5,
       title: "Admin dashboard",
       description:
         "Developed a React Admin Dashboard app with customizable themes, tables, charts, calendar, and Kanban board. Implemented interactive features, seamless integration, and smooth user experience.",
@@ -221,7 +231,7 @@ export const SkillsInfo = [
       webapp: "https://celebalinternship.onrender.com",
     },
      {
-      id: 5,
+      id: 6,
       title: "To-Do List using React",
       description:
         "Developed a React To-Do List component allowing task addition, removal, and completion marking. Validate task input, display tasks dynamically, and offer optional sorting, filtering, and localStorage integration.",
@@ -231,7 +241,7 @@ export const SkillsInfo = [
       webapp: "https://todolist-celebalassignment2.onrender.com",
     },
     {
-      id: 6,
+      id: 7,
       title: "Simon-says-Game",
       description:
         "It is a fun,classic game of listening and quick reflexes.One player,Simon gives commands like Simon says red color blink ,Player should click on red color. And in next level player should touch red color then another color blinked by the simon.",
@@ -241,7 +251,7 @@ export const SkillsInfo = [
       webapp: "https://simon-says-game-3swd.onrender.com",
     },
     {
-      id: 7,
+      id: 8,
       title: "Online-Meal Website",
       description:
         "The Online Meal Ordering Project is a simple web application developed using HTML & CSS, designed to provide users with a seamless platform for browsing and ordering meals online. This project highlights my ability to create engaging and functional front-end applications while focusing on UI/UX design and interactivity.",
@@ -251,7 +261,7 @@ export const SkillsInfo = [
       webapp: "https://online-meal-website.onrender.com",
     },
     {
-      id: 8,
+      id: 9,
       title: "Weather App",
       description:
         "The Weather App is a web application built using HTML, CSS, and JavaScript that fetches real-time weather data from an external API. Users can search for the weather in any location, and the app will display key information such as temperature, humidity, wind speed, and weather conditions. The app features a clean and responsive interface, ensuring a smooth experience across different devices.",
