@@ -177,7 +177,7 @@ export const SkillsInfo = [
       description:
         "AI Interview Failure Analyzer",
       image: interviewLogo,
-      tags: ["JavaScript", "MongoDB", "React.JS", "MERN-Stack", "Groq-API","Netlify Deployment", "Tailwind CSS"],
+      tags: ["Docker", "LLM", "CI/CD", "JavaScript", "MongoDB", "React.JS", "MERN-Stack", "Groq-API","Netlify Deployment", "Tailwind CSS"],
       github: "https://github.com/aakanshimalik/InterviewLens-AI",
       webapp: "https://interviewlens-ai.netlify.app/",
     },
