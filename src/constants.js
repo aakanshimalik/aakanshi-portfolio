@@ -48,6 +48,7 @@ import simonLogo from './assets/work_logo/simon.png';
 import onlinemealLogo from './assets/work_logo/online-meal.png';
 import weatherLogo from './assets/work_logo/weather.png';
 import interviewLogo from './assets/work_logo/interviewLens_img.png';
+import ytdownloader from './assets/work_logo/ytdownloader.png';
 
 
 export const SkillsInfo = [
@@ -269,6 +270,15 @@ export const SkillsInfo = [
       tags: [ "API", "HTML", "CSS", "Javascript"],
       github: "https://github.com/aakanshimalik/Weather",
       webapp: "https://weather-ii01.onrender.com",
+    },
+    {
+      id: 10,
+      title: "Python You-tube video downloader",
+      description:
+        "A Python-based tool that downloads YouTube videos using a simple and user-friendly interface.",
+      image: ytdownloader,
+      tags: [ "Python"],
+      github: "https://github.com/aakanshimalik/python_YoutubeVideoDownloader",
     },
    
     
