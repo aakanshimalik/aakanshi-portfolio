@@ -40,7 +40,7 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a dedicated MERN Stack Developer and React Developer with hands-on experience gained during a 2-month internship in React Developer internship. I specialize in building scalable, responsive, and dynamic web applications using MongoDB, Express.js, React, and Node.js. My problem-solving skills are supported by a solid foundation in Data Structures and Algorithms (DSA), where I can efficiently solve easy to medium-level problems. Currently, I am pursuing my degree and will be graduating in 2026. I am continuously learning and eager to contribute my skills in the field of web development.
+            I am a dedicated MERN Stack Developer and React Developer with hands-on experience gained during a 2-month internship in React Developer internship. I specialize in building scalable, responsive, and dynamic web applications using MongoDB, Express.js, React, and Node.js. My problem-solving skills are supported by a solid foundation in Data Structures and Algorithms (DSA), where I can efficiently solve easy to medium-level problems.I have pursued my degree and recently graduated in 2026. I am continuously learning and eager to contribute my skills in the field of software development.
           </p>
           {/* Resume Button */}
           <a
